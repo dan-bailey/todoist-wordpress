@@ -1,10 +1,8 @@
 # todoist-wordpress
-Linking my Todoist scripts to Wordpress via its REST API.
+The original plan here was to re-use the python script I wrote and have it process the todoist data and push the results to the Wordpress REST API.  Makes a lot more sense if I just use javascript to pull the information and process it.
 
 # next steps
-* ~~get connection to WP working~~
-* create endpoint for receiving and storing data
-* create widget
-* lift code from the todoist-twitter script to handle pull from todoist
-* update the widget fields with the script via REST API
-* set up script with cron job
+* use boilerplate to create plugin framework
+* set up widget framework, with settings
+* get javascript pulling data from todoist
+* filter, format, display data
